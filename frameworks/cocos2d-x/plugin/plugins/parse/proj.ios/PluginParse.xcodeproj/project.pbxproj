@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		979B7D181999DC90001196FF /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979B7D171999DC90001196FF /* Parse.framework */; };
 		FADC44AB176EA82000B2D5ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADC44AA176EA82000B2D5ED /* Foundation.framework */; };
 		FADC44C6176EA84500B2D5ED /* UserParse.m in Sources */ = {isa = PBXBuildFile; fileRef = FADC44C4176EA84500B2D5ED /* UserParse.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		979B7D171999DC90001196FF /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		FADC44A7176EA82000B2D5ED /* libPluginParse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPluginParse.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADC44AA176EA82000B2D5ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FADC44C3176EA84500B2D5ED /* UserParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserParse.h; sourceTree = "<group>"; };
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				979B7D181999DC90001196FF /* Parse.framework in Frameworks */,
 				FADC44AB176EA82000B2D5ED /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +68,7 @@
 		FADC44A9176EA82000B2D5ED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				979B7D171999DC90001196FF /* Parse.framework */,
 				FADC44AA176EA82000B2D5ED /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -185,6 +189,10 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
 				DSTROOT = /tmp/PluginAdmob.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PluginParse-Prefix.pch";
@@ -206,6 +214,10 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
 				DSTROOT = /tmp/PluginAdmob.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PluginParse-Prefix.pch";

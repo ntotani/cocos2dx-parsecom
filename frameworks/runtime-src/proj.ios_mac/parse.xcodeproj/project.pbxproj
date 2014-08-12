@@ -80,6 +80,16 @@
 		979B7CAF1999BC23001196FF /* libPluginProtocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 979B7CAE1999BBFC001196FF /* libPluginProtocol.a */; };
 		979B7CE61999C3F5001196FF /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979B7CE51999C3F5001196FF /* GameController.framework */; };
 		979B7CED1999C8A3001196FF /* libPluginParse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 979B7CEC1999C7C5001196FF /* libPluginParse.a */; };
+		979B7D021999D328001196FF /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979B7D011999D328001196FF /* Parse.framework */; };
+		979B7D041999D439001196FF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979B7D031999D439001196FF /* CFNetwork.framework */; };
+		979B7D061999D448001196FF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979B7D051999D448001196FF /* CoreLocation.framework */; };
+		979B7D081999D453001196FF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979B7D071999D453001196FF /* MobileCoreServices.framework */; };
+		979B7D0A1999D461001196FF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979B7D091999D461001196FF /* Security.framework */; };
+		979B7D0C1999D469001196FF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979B7D0B1999D469001196FF /* StoreKit.framework */; };
+		979B7D0E1999D471001196FF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979B7D0D1999D471001196FF /* SystemConfiguration.framework */; };
+		979B7D101999D4AB001196FF /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979B7D0F1999D4AB001196FF /* Accounts.framework */; };
+		979B7D121999D4C4001196FF /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979B7D111999D4C4001196FF /* Social.framework */; };
+		979B7D161999D9B4001196FF /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979B7D151999D9B4001196FF /* FacebookSDK.framework */; };
 		C00FD4921938512100C6382D /* Landscape_png.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C00FD48A1938512100C6382D /* Landscape_png.cpp */; };
 		C00FD4931938512100C6382D /* Landscape_png.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C00FD48A1938512100C6382D /* Landscape_png.cpp */; };
 		C00FD4941938512100C6382D /* PlayDisable_png.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C00FD48B1938512100C6382D /* PlayDisable_png.cpp */; };
@@ -455,6 +465,16 @@
 		979B7CA71999BBFC001196FF /* PluginProtocol.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PluginProtocol.xcodeproj; path = "../../cocos2d-x/plugin/protocols/proj.ios/PluginProtocol.xcodeproj"; sourceTree = "<group>"; };
 		979B7CE51999C3F5001196FF /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
 		979B7CE71999C7C5001196FF /* PluginParse.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PluginParse.xcodeproj; path = "../../cocos2d-x/plugin/plugins/parse/proj.ios/PluginParse.xcodeproj"; sourceTree = "<group>"; };
+		979B7D011999D328001196FF /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../cocos2d-x/plugin/plugins/parse/proj.ios/Parse.framework"; sourceTree = "<group>"; };
+		979B7D031999D439001196FF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		979B7D051999D448001196FF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		979B7D071999D453001196FF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		979B7D091999D461001196FF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		979B7D0B1999D469001196FF /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		979B7D0D1999D471001196FF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		979B7D0F1999D4AB001196FF /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accounts.framework; sourceTree = DEVELOPER_DIR; };
+		979B7D111999D4C4001196FF /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Social.framework; sourceTree = DEVELOPER_DIR; };
+		979B7D151999D9B4001196FF /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = "../../cocos2d-x/plugin/plugins/parse/proj.ios/FacebookSDK.framework"; sourceTree = "<group>"; };
 		C00FD48A1938512100C6382D /* Landscape_png.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Landscape_png.cpp; sourceTree = "<group>"; };
 		C00FD48B1938512100C6382D /* PlayDisable_png.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlayDisable_png.cpp; sourceTree = "<group>"; };
 		C00FD48C1938512100C6382D /* PlayEnable_png.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlayEnable_png.cpp; sourceTree = "<group>"; };
@@ -546,6 +566,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				979B7D161999D9B4001196FF /* FacebookSDK.framework in Frameworks */,
+				979B7D021999D328001196FF /* Parse.framework in Frameworks */,
+				979B7D121999D4C4001196FF /* Social.framework in Frameworks */,
+				979B7D101999D4AB001196FF /* Accounts.framework in Frameworks */,
+				979B7D0E1999D471001196FF /* SystemConfiguration.framework in Frameworks */,
+				979B7D0C1999D469001196FF /* StoreKit.framework in Frameworks */,
+				979B7D0A1999D461001196FF /* Security.framework in Frameworks */,
+				979B7D081999D453001196FF /* MobileCoreServices.framework in Frameworks */,
+				979B7D061999D448001196FF /* CoreLocation.framework in Frameworks */,
+				979B7D041999D439001196FF /* CFNetwork.framework in Frameworks */,
 				979B7CED1999C8A3001196FF /* libPluginParse.a in Frameworks */,
 				979B7CE61999C3F5001196FF /* GameController.framework in Frameworks */,
 				979B7CAF1999BC23001196FF /* libPluginProtocol.a in Frameworks */,
@@ -825,6 +855,16 @@
 		F293B3CB15EB7BE500256477 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				979B7D151999D9B4001196FF /* FacebookSDK.framework */,
+				979B7D111999D4C4001196FF /* Social.framework */,
+				979B7D0F1999D4AB001196FF /* Accounts.framework */,
+				979B7D0D1999D471001196FF /* SystemConfiguration.framework */,
+				979B7D0B1999D469001196FF /* StoreKit.framework */,
+				979B7D091999D461001196FF /* Security.framework */,
+				979B7D071999D453001196FF /* MobileCoreServices.framework */,
+				979B7D051999D448001196FF /* CoreLocation.framework */,
+				979B7D031999D439001196FF /* CFNetwork.framework */,
+				979B7D011999D328001196FF /* Parse.framework */,
 				979B7CE51999C3F5001196FF /* GameController.framework */,
 				3EEEDB60197107C0006A9FF8 /* MediaPlayer.framework */,
 				3EB51526195187AF006966AA /* CFNetwork.framework */,
@@ -1460,6 +1500,10 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/../../cocos2d-x/plugin/plugins/parse/proj.ios",
+					"/Users/n_totani/Documents/cocos/parse/frameworks/cocos2d-x/plugin/plugins/parse/proj.ios",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ios/Prefix.pch;
@@ -1484,6 +1528,10 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/../../cocos2d-x/plugin/plugins/parse/proj.ios",
+					"/Users/n_totani/Documents/cocos/parse/frameworks/cocos2d-x/plugin/plugins/parse/proj.ios",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ios/Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
