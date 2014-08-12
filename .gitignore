@@ -22,11 +22,11 @@ local.properties
 # Ignore files build by xcode
 .DS_Store
 ._.*
-frameworks/**/proj.ios_mac/DerivedData
-frameworks/**/proj.ios_mac/*.xcodeproj/*
-!frameworks/**/proj.ios_mac/*.xcodeproj/project.pbxproj
-!frameworks/**/proj.ios_mac/*.xcodeproj/project.xcworkspace/contents.xcworkspacedata
-!frameworks/**/proj.ios_mac/*.xcodeproj/xcshareddata
+frameworks/**/proj.ios*/DerivedData
+frameworks/**/proj.ios*/*.xcodeproj/*
+!frameworks/**/proj.ios*/*.xcodeproj/project.pbxproj
+!frameworks/**/proj.ios*/*.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+!frameworks/**/proj.ios*/*.xcodeproj/xcshareddata
 
 # Ignore vim swaps
 *.swp
