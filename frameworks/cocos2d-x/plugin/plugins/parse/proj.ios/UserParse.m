@@ -32,9 +32,9 @@
     return @"";
 }
 
-- (void) setDebugMode: (NSNumber*) debug
+- (void) setDebugMode: (BOOL) isDebugMode
 {
-    self.debug = [debug boolValue];
+    self.debug = isDebugMode;
 }
 
 - (NSString*) getSDKVersion
