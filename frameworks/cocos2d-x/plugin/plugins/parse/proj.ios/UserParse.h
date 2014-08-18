@@ -1,7 +1,8 @@
 #import <Foundation/Foundation.h>
 #import "InterfaceUser.h"
+#import <Parse/Parse.h>
 
-@interface UserParse : NSObject <InterfaceUser>
+@interface UserParse : NSObject <InterfaceUser, PFLogInViewControllerDelegate>
 {
 }
 
@@ -18,5 +19,12 @@
 - (void) setDebugMode: (BOOL) debug;
 - (NSString*) getSDKVersion;
 - (NSString*) getPluginVersion;
+
+- (void)logInViewController:(PFLogInViewController *)logInController didLogInUser:(PFUser *)user;
+- (void)logInViewController:(PFLogInViewController *)logInController didFailToLogInWithError:(NSError *)error;
+- (void)logInViewControllerDidCancelLogIn:(PFLogInViewController *)logInController;
+
+- (void) saveChara:(NSMutableDictionary*)data;
+- (void) loadChara;
 
 @end
