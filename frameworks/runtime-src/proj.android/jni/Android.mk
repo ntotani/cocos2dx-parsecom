@@ -40,9 +40,11 @@ $(LOCAL_PATH)/../../Classes
 
 LOCAL_STATIC_LIBRARIES := curl_static_prebuilt
 
-LOCAL_WHOLE_STATIC_LIBRARIES := cocos_lua_static
+LOCAL_WHOLE_STATIC_LIBRARIES := cocos_lua_static PluginProtocolStatic
 
 include $(BUILD_SHARED_LIBRARY)
 
 $(call import-module,scripting/lua-bindings)
+$(call import-module,protocols/android)
+
 
