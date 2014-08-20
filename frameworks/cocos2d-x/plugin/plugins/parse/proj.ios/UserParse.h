@@ -24,7 +24,4 @@
 - (void)logInViewController:(PFLogInViewController *)logInController didFailToLogInWithError:(NSError *)error;
 - (void)logInViewControllerDidCancelLogIn:(PFLogInViewController *)logInController;
 
-- (void) saveChara:(NSMutableDictionary*)data;
-- (void) loadChara;
-
 @end

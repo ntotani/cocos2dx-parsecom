@@ -70,24 +70,4 @@
     [UserWrapper onActionResult:self withRet:kLoginFailed withMsg:@"cancel"];
 }
 
-- (void)saveChara:(NSMutableDictionary *)data
-{
-    PFObject* chara = [PFObject objectWithClassName:@"Chara"];
-    chara[@"type"] = data[@"type"];
-    chara[@"level"] = data[@"level"];
-    chara.ACL = [PFACL ACLWithUser:[PFUser currentUser]];
-    [chara saveInBackground];
-}
-
-- (void)loadChara
-{
-    PFQuery* q = [PFQuery queryWithClassName:@"Chara"];
-    [q findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
-        PFObject* chara = objects.firstObject;
-        NSString* format = @"{\"type\":\"%@\",\"level\":\"%@\"}";
-        NSString* json = [NSString stringWithFormat:format, chara[@"type"], chara[@"level"]];
-        [UserWrapper onActionResult:self withRet:kLogoutSucceed withMsg:json];
-    }];
-}
-
 @end
