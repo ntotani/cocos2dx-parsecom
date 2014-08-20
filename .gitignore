@@ -1,5 +1,5 @@
 build/
-runtime
+/runtime
 !runtime/rtres
 !runtime/ios/ios-sim
 publish
