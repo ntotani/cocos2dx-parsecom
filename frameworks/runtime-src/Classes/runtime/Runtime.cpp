@@ -773,7 +773,9 @@ public:
             Vec2 point = target->convertToNodeSpace(Director::getInstance()->convertToGL(touch->getLocationInView()));
             auto rect = Rect(0, 0, target->getContentSize().width, target->getContentSize().height);
             if (!rect.containsPoint(point)) return;
-            startScript("");
+            //startScript("");
+            auto parse = dynamic_cast<ProtocolUser*>(PluginManager::getInstance()->loadPlugin("UserParse"));
+            parse->login();
         };
         _eventDispatcher->addEventListenerWithSceneGraphPriority(listener, playSprite);
 
